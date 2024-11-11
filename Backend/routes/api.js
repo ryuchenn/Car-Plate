@@ -40,7 +40,6 @@ router.post('/saveDetect', async (req, res) => {
 router.get('/vehicle', async (req, res) => {
     try {
         const vehicles = await Info.find({ IsPaid: false });
-        console.log(vehicles)
         // Format the data to include base64-encoded images
         const response = vehicles.map(vehicle => ({
             _id: vehicle._id,
@@ -89,6 +88,7 @@ router.get('/searchVehicles', async (req, res) => {
     }
 });
 
+// Update the payment status when customer already pay the parking fee
 router.put('/updatePayment/:id', async (req, res) => {
     try {
         const { id } = req.params; // Document ID
