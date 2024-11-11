@@ -7,31 +7,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/BtnLicense"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World123!"
+        android:text="License Plate Detector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.002" />
+        app:layout_constraintVertical_bias="0.357" />
 
     <Button
-        android:id="@+id/BtnIn"
+        android:id="@+id/BtnCheckout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Standby_In"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="647dp" />
-
-    <Button
-        android:id="@+id/BtnOut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Standby_Out"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="647dp" />
+        android:text="Checkout Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

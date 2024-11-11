@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/vehicle_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Vehicle Image" />
+
+    <TextView
+        android:id="@+id/plate_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plate Number"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/entry_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entry Time"
+        android:paddingTop="4dp"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+</LinearLayout>

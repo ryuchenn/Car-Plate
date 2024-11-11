@@ -5,7 +5,8 @@ data class Exception(
     val EditedLabelName: String?,
     val IsExport: Boolean?,
     val ExportDate: String?,
-    val Picture: String?
+    val Picture: String?,
+    val PictureThumbnail: String?
 )
 
 
