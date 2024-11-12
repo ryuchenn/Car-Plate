@@ -12,6 +12,11 @@ This project uses a model trained with rear license plates from Ontario, Canada,
     <img src="github/2.gif" alt=“Search” height="400" width="600"/>
 </div>
 
+## Workflow
+<div align="center">
+    <img src="github/workflow.png" alt=“Search” height="600" width="300"/>
+</div>
+
 ## Get Started
 The `YOLO` model was trained with `Python` for object detection, and the trained model is loaded onto an `Android` interface to detect license plates and license plate numbers. The detected license plate images and numbers are processed via `Node.js` and added to `MongoDB`.
 1. Data Collection and Preprocessing: 
